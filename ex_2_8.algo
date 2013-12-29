@@ -1,0 +1,16 @@
+//# Name : ex_2_8, calculate inflate rate between January and February
+//# Author : Samuel El-Borai, HEIG-VD fee
+//# Creation : 30 septembre 2013
+//# Modifications :
+//# Input : price_index_january, price_index_february
+//# Output : inflate rate
+
+var price_index_january : reel
+var price_index_february : reel
+
+ecrire("Price index for January:")
+lire(price_index_january)
+ecrire("Price index for February:")
+lire(price_index_february)
+ecrire("Inflate rate:")
+ecrire(((price_index_january - price_index_january) / price_index_january) * 100)
